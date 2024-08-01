@@ -27,10 +27,11 @@
       enableCompletion = true;
       syntaxHighlighting.enable = true;
       shellAliases = {
+        l = "tree";
         update = "sudo nixos-rebuild switch --flake .";
 	update-home = "home-manager switch --flake .";
 	cleanup = "sudo nix-collect-garbage -d";
-	key = "echo 3f+_?e2SIz[U1dF/83+\\\\";
+	key = "bash ~/.key/pass/.key.sh";
       };
       history = {
         size = 100;
@@ -38,7 +39,7 @@
       };
       oh-my-zsh = {
         enable = true;
-        plugins = [ "git" "thefuck" ];
+        plugins = [ "git" ];
         theme = "awesomepanda";
       };
     };
