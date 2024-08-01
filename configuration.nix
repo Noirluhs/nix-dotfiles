@@ -86,7 +86,7 @@
     firefox
     rustup
     jdk22
-    eclipses.eclipse-sdk
+    jetbrains.idea-community-bin
   ];
 
   system.stateVersion = "24.05"; # Did you read the comment?
