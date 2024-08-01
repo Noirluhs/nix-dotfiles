@@ -59,7 +59,10 @@
     # bash.enable = false;
     nix-ld = {
       enable = true;
-      libraries = [];
+      libraries = [
+        rustup
+	jdk22
+      ];
     };
   };
 
@@ -81,6 +84,9 @@
     wget
     gcc
     firefox
+    jdk22
+    rustup
+    eclipses.eclipse-sdk
   ];
 
   system.stateVersion = "24.05"; # Did you read the comment?
