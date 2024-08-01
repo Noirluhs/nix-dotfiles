@@ -59,7 +59,7 @@
     # bash.enable = false;
     nix-ld = {
       enable = true;
-      libraries = [
+      libraries = with pkgs; [
         rustup
 	jdk22
       ];
@@ -84,8 +84,8 @@
     wget
     gcc
     firefox
-    jdk22
     rustup
+    jdk22
     eclipses.eclipse-sdk
   ];
 
