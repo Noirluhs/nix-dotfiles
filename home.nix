@@ -58,6 +58,6 @@
 
   imports = [
     ./kitty
-    ./emacs
+    ./helix
   ];
 }
