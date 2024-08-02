@@ -4,11 +4,11 @@
       enable = true;
       defaultEditor = true;
       startWithGraphical = true;
-    };
-    programs = {
-      emacs = {
-        enable = true;
-      };
+     };
+  };
+  programs = {
+    emacs = {
+      enable = true;
     };
   };
 
