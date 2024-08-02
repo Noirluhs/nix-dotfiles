@@ -10,6 +10,9 @@
       zip
       tree
       neofetch
+      bat
+      which
+      fzf
 
       # Privacy
       keepassxc
@@ -42,7 +45,7 @@
       };
       oh-my-zsh = {
         enable = true;
-        plugins = [ "git" "fzf-zsh" ];
+        plugins = [ "git" ];
         theme = "awesomepanda";
       };
     };
