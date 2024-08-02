@@ -2,7 +2,7 @@
   programs = {
     emacs = {
       enable = true;
-      package = [ "pkgs.emacs-gtk" ];
+      package = pkgs.emacs-gtk;
     };
   };
 }
