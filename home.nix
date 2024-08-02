@@ -39,7 +39,7 @@
       };
       oh-my-zsh = {
         enable = true;
-        plugins = [ "git" ];
+        plugins = [ "git" "fzf-zsh" ];
         theme = "awesomepanda";
       };
     };
@@ -53,5 +53,6 @@
   imports = [
     ./kitty
     ./tmux
+    ./emacs
   ];
 }
