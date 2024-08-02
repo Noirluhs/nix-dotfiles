@@ -6,18 +6,19 @@
       defaultEditor = true;
       settings = {
         theme = "gruvbox"
-
-	[editor]
-	line-number = "relative"
-	mouse = false
-
-	[editor.cursor-shape]
-	insert = "bar"
-	normal = "block"
-	select = "underline"
-
-	[editor.file-picker]
-	hidden = false
+	editor = {
+	  line-number = "relative"
+	  lsp.display-messages = true;
+	  mouse = false
+	  cursor-shape = {
+	    insert = "bar";
+	    normal = "block";
+	    select = "underline";
+	  };
+	  file-picker = {
+	    hidden = false;
+	  };
+	};
       };
     };
   };
