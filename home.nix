@@ -37,7 +37,7 @@
 	key = "bash ~/.key/pass/.key.sh";
       };
       history = {
-        size = 100;
+        size = 1000;
 	path = "${config.xdg.dataHome}/zsh/history";
       };
       oh-my-zsh = {
@@ -55,7 +55,6 @@
 
   imports = [
     ./kitty
-    ./tmux
     ./emacs
   ];
 }
