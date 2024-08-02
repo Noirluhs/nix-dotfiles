@@ -8,7 +8,6 @@ in
       enable = true;
       defaultEditor = true;
       startWithGraphical = true;
-      package = mkPackageOption pkgs "emacs-gtk" { };
     };
   };
   programs = {
