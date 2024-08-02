@@ -31,6 +31,9 @@
         update = "sudo nixos-rebuild switch --flake .";
 	update-home = "home-manager switch --flake .";
 	cleanup = "sudo nix-collect-garbage -d";
+	gita = "git add";
+	gitc = "git commit -m";
+	gitp = "git push";
 	key = "bash ~/.key/pass/.key.sh";
       };
       history = {
