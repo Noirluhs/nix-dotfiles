@@ -1,8 +1,4 @@
-{ pkgs, ... }: 
-let
-  cfg = config.services.emacs;
-in
-{  
+{ pkgs, ... }: {  
   options.services = {
     emacs = {
       enable = true;
