@@ -4,6 +4,32 @@
       enable = true;
       package = pkgs.helix;
       defaultEditor = true;
+      languages = {
+        language = {
+          rust = {
+            name = "rust";
+            scope = source.rust;
+            file-types = ["rs"];
+            root = ["cargo.toml" "cargo.lock"];
+            comment-tokens = [ "//" "/**/" "///"];
+            indent = { tab-width = 2, unit = "  "};
+            language-server = [ "rust-analyzer"];
+          };
+        };
+        language-server = {
+          rust-analyzer = {
+            config = {
+              cargo = {
+                buildScripts.enable = true;
+              };
+              check = {
+                command = "clippy";
+                ignore = ["dead_code" "unused_imports" "unused_variables"];
+              };
+            };
+          };
+        };
+      };
       settings = {
         theme = "gruvbox";
 	      editor = {
