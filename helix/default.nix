@@ -8,7 +8,7 @@
         language = {
           rust = {
             name = "rust";
-            scope = source.rust;
+            scope = "source.rust";
             file-types = ["rs"];
             root = ["cargo.toml" "cargo.lock"];
             comment-tokens = [ "//" "/**/" "///"];
