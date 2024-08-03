@@ -25,6 +25,7 @@
         };
         language-server = {
           rust-analyzer = {
+            args = [ "--stdio" ];
             config = {
               cargo = {
                 buildScripts.enable = true;
