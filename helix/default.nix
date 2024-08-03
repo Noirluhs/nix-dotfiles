@@ -17,9 +17,9 @@
           completion-replace = true;
 	        line-number = "relative";
           statusline = {
-            left = ["mode", "spinner"];
-            center = ["file-name", "version-control"];
-            right = ["position", "file-encoding"];
+            left = ["mode" "spinner"];
+            center = ["file-name" "version-control"];
+            right = ["position" "file-encoding"];
             separator = "||";
             mode = {
               normal = "normal";
