@@ -1,5 +1,4 @@
 { pkgs, ... }: {                                     
-    1    programs =
   programs = {
     helix = {
       enable = true;
