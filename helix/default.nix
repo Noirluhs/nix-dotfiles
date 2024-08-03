@@ -7,8 +7,8 @@
       settings = {
         theme = "gruvbox";
 	      editor = {
-          mouse = true;
-          middle-click-paste = true;
+          mouse = false;
+          middle-click-paste = false;
           auto-completion = true;
           auto-format = true;
           completion-timeout = 5;
