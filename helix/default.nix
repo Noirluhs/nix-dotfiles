@@ -5,6 +5,9 @@
       package = pkgs.helix;
       defaultEditor = true;
       languages = {
+        use-grammars = {
+          only = [ "rust" "c" "cpp"];
+        };
         language = {
           rust = {
             name = "rust";
@@ -16,6 +19,7 @@
               tab-width = 2;
               unit = "  ";
             };
+            grammar = [ "rust" ];
             language-server = [ "rust-analyzer"];
           };
         };
