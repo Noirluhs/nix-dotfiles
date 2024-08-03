@@ -12,7 +12,7 @@
             file-types = ["rs"];
             root = ["cargo.toml" "cargo.lock"];
             comment-tokens = [ "//" "/**/" "///"];
-            indent = { tab-width = 2 };
+            indent = tab-width = 2;
             language-server = [ "rust-analyzer"];
           };
         };
