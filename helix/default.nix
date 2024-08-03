@@ -4,6 +4,28 @@
       enable = true;
       package = pkgs.helix;
       defaultEditor = true;
+      languages = {
+        use-grammars = {
+          only = [ "rust" "c" "cpp" ];
+        };
+        language-server = {
+          rust-analyzer = {
+            command = "rust-analyzer";
+          };
+        };
+        language = {
+          rust = {
+            name = "rust";
+            scope = "source.rust";
+            injection-regex = "rs|rust";
+            file-types = [ "rs" ];
+            roots = [ "cargo.toml" "cargo.lock" ];
+            shebangs = [ "rust-script" "cargo" ];
+            auto-format = true;
+            comment-tokens = ["//", "///" "//!"];
+          };
+        };
+      };
       settings = {
         theme = "gruvbox";
 	      editor = {
