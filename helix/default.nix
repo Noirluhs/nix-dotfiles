@@ -31,7 +31,7 @@
           auto-format = true;
           completion-timeout = 5;
           preview-completion-insert = true;
-          completion-trigger-len = 3;
+          completion-trigger-len = 2;
           completion-replace = true;
 	        line-number = "relative";
           statusline = {
