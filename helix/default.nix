@@ -8,8 +8,7 @@
         use-grammars = {
           only = [ "rust" "c" "cpp"];
         };
-        language = {
-          rust = {
+        language = [{
             name = "rust";
             scope = "source.rust";
             file-types = ["rs"];
@@ -22,15 +21,12 @@
             grammar = [ "rust" ];
             language-server = [ "rust-analyzer"];
           };
-        };
+        }];
         language-server = {
           rust-analyzer = {
-            command = "rust-analyzer";
+            command = "${rust-analyzer}";
             args = [ "--stdio" ];
             config = {
-              cargo = {
-                buildScripts.enable = true;
-              };
               check = {
                 command = "clippy";
                 ignore = ["dead_code" "unused_imports" "unused_variables"];
