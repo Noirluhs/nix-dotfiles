@@ -6,21 +6,28 @@
       defaultEditor = true;
       settings = {
         theme = "gruvbox";
-	editor = {
-	  line-number = "relative";
-	  lsp = {
-	    display-messages = true;
-	  };
-	  mouse = false;
-	  cursor-shape = {
-	    insert = "bar";
-	    normal = "block";
-	    select = "underline";
-	  };
-	  file-picker = {
-	    hidden = false;
-	  };
-	};
+	      editor = {
+          mouse = true;
+          middle-click-paste = true;
+          auto-completion = true;
+          auto-format = true;
+          completion-timeout = 5;
+          preview-completion-insert = true;
+          completion-trigger-len = 3;
+          completion-replace = true;
+	        line-number = "relative";
+	        lsp = {
+	          display-messages = true;
+	        };
+	        cursor-shape = {
+	          insert = "bar";
+	          normal = "block";
+	          select = "underline";
+	        };
+	        file-picker = {
+	          hidden = false;
+	        };
+	      };
       };
     };
   };
