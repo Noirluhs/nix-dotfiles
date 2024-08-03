@@ -1,6 +1,6 @@
 { pkgs, ... }:
 let
-  rust-analyzer = .rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin;
+  rust-analyzer = .rustup/toolchains/stable-x86_64-unknown-linux-gnu/;
 in 
 {
   programs = {
@@ -27,7 +27,7 @@ in
         }];
         language-server = {
           rust-analyzer = {
-            command = "${rust-analyzer}";
+            command = "${rust-analyzer}/bin/rust-analyzer";
             args = [ "--stdio" ];
             config = {
               check = {
