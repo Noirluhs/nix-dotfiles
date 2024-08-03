@@ -25,6 +25,7 @@
         };
         language-server = {
           rust-analyzer = {
+            command = "rust-analyzer";
             args = [ "--stdio" ];
             config = {
               cargo = {
