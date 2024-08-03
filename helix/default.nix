@@ -16,7 +16,20 @@
           completion-trigger-len = 3;
           completion-replace = true;
 	        line-number = "relative";
+          statusline = {
+            left = ["mode", "spinner"];
+            center = ["file-name", "version-control"];
+            right = ["position", "file-encoding"];
+            separator = "||";
+            mode = {
+              normal = "normal";
+              insert = "insert";
+              select = "select";
+            };
+          };
 	        lsp = {
+            enable = true;
+            snippets = true;
 	          display-messages = true;
 	        };
 	        cursor-shape = {
