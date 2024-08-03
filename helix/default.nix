@@ -1,6 +1,6 @@
 { pkgs, ... }:
 let
-  rust-analyzer = .rustup/toolchains/stable-x86_64-unknown-linux-gnu/;
+  rust-analyzer = .rustup/toolchains/stable-x86_64-unknown-linux-gnu;
 in 
 {
   programs = {
