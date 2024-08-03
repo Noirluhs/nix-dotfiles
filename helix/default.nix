@@ -1,4 +1,8 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+let
+  rust-analyzer = .rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin;
+in 
+{
   programs = {
     helix = {
       enable = true;
