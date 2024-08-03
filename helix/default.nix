@@ -22,7 +22,7 @@
             roots = [ "cargo.toml" "cargo.lock" ];
             shebangs = [ "rust-script" "cargo" ];
             auto-format = true;
-            comment-tokens = ["//", "///" "//!"];
+            comment-tokens = ["//" "///" "//!"];
           };
         };
       };
