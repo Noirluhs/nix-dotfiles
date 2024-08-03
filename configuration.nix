@@ -61,7 +61,7 @@
       enable = true;
       libraries = with pkgs; [
         rustup
-	jdk22
+	      libclang
       ];
     };
   };
@@ -85,8 +85,7 @@
     gcc
     firefox
     rustup
-    jdk22
-    jetbrains.idea-community-bin
+    libclang
   ];
 
   system.stateVersion = "24.05"; # Did you read the comment?
