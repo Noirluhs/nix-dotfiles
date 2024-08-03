@@ -8,13 +8,10 @@
         use-grammars = {
           only = [ "rust" "c" "cpp" ];
         };
-        language-server = {
-          rust-analyzer = {
+        language-server.rust-analyzer = {
             command = "rust-analyzer";
-          };
         };
-        language = {
-          rust = {
+        language = [{
             name = "rust";
             scope = "source.rust";
             injection-regex = "rs|rust";
@@ -23,8 +20,7 @@
             shebangs = [ "rust-script" "cargo" ];
             auto-format = true;
             comment-tokens = ["//" "///" "//!"];
-          };
-        };
+        }];
       };
       settings = {
         theme = "gruvbox";
