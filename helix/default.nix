@@ -5,11 +5,13 @@
       package = pkgs.helix;
       defaultEditor = true;
       settings = {
-        theme = "gruvbox"
+        theme = "gruvbox";
 	editor = {
-	  line-number = "relative"
-	  lsp.display-messages = true;
-	  mouse = false
+	  line-number = "relative";
+	  lsp = {
+	    display-messages = true;
+	  };
+	  mouse = false;
 	  cursor-shape = {
 	    insert = "bar";
 	    normal = "block";
