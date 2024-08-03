@@ -20,7 +20,6 @@
             };
             grammar = [ "rust" ];
             language-server = [ "rust-analyzer"];
-          };
         }];
         language-server = {
           rust-analyzer = {
