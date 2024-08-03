@@ -1,43 +1,9 @@
-{ pkgs, ... }:
-let
-  rust-analyzer = .rustup/toolchains/stable-x86_64-unknown-linux-gnu;
-in 
-{
+{ pkgs, ... }: {
   programs = {
     helix = {
       enable = true;
       package = pkgs.helix;
       defaultEditor = true;
-      languages = {
-        use-grammars = {
-          only = [ "rust" "c" "cpp"];
-        };
-        language = [{
-            name = "rust";
-            scope = "source.rust";
-            file-types = ["rs"];
-            root = ["cargo.toml" "cargo.lock"];
-            comment-tokens = [ "//" "/**/" "///"];
-            indent = {
-              tab-width = 2;
-              unit = "  ";
-            };
-            grammar = [ "rust" ];
-            language-server = [ "rust-analyzer"];
-        }];
-        language-server = {
-          rust-analyzer = {
-            command = "${rust-analyzer}/bin/rust-analyzer";
-            args = [ "--stdio" ];
-            config = {
-              check = {
-                command = "clippy";
-                ignore = ["dead_code" "unused_imports" "unused_variables"];
-              };
-            };
-          };
-        };
-      };
       settings = {
         theme = "gruvbox";
 	      editor = {

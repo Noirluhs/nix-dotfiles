@@ -61,7 +61,6 @@
       enable = true;
       libraries = with pkgs; [
         rustup
-	      libclang
       ];
     };
   };
@@ -85,7 +84,6 @@
     gcc
     firefox
     rustup
-    libclang
   ];
 
   system.stateVersion = "24.05"; # Did you read the comment?
