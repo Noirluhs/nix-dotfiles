@@ -19,7 +19,7 @@
             roots = [ "cargo.toml" "cargo.lock" ];
             shebangs = [ "rust-script" "cargo" ];
             auto-format = true;
-            language-server = [ "rust-anazlyzer" ];
+            language-servers = [ "rust-anazlyzer" ];
             comment-tokens = ["//" "///" "//!"];
         }];
       };
