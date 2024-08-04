@@ -35,8 +35,8 @@
     };
 
     font = {
-      package = pkgs.iosevka;
-      name = "Iosevka";
+      package = pkgs.sourc-code-pro;
+      name = "Source Code Pro";
       size = 14;
     };
   };
