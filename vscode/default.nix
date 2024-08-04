@@ -3,8 +3,10 @@
     vscode = {
       enable = true;
       package = pkgs.vscode;
-      extensions = [
-        pkgs.vscode-extensions.bungcip.better-toml
+      extensions = with pkgs; [
+        vscode-extensions = {
+          bungcip.better-toml
+        };
       ];
     };
   };
