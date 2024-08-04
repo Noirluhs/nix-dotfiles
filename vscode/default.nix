@@ -4,9 +4,7 @@
       enable = true;
       package = pkgs.vscode;
       extensions = with pkgs; [
-        vscode-extensions = {
-          bungcip.better-toml
-        };
+        vscode-extensions.tamasfe.even-better-toml
       ];
     };
   };
