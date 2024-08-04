@@ -60,5 +60,6 @@
   imports = [
     ./kitty
     ./helix
+    ./vscode
   ];
 }

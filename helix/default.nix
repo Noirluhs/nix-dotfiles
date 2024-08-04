@@ -20,7 +20,7 @@
             shebangs = [ "rust-script" "cargo" ];
             auto-format = true;
             language-servers = [ "rust-anazlyzer" ];
-            grammars = [ "rust" ];
+            grammar = [ "rust" ];
             comment-tokens = ["//" "///" "//!"];
         }];
       };
