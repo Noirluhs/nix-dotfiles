@@ -60,7 +60,6 @@
     nix-ld = {
       enable = true;
       libraries = with pkgs; [
-        rustup
         llvm_17
         clang_17
         zig
@@ -86,7 +85,6 @@
     wget
     gcc
     firefox
-    rustup
     llvm_17
     clang_17
     zig
