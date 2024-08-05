@@ -35,7 +35,7 @@
     };
 
     font = {
-      package = pkgs.sourc-code-pro;
+      package = pkgs.source-code-pro;
       name = "Source Code Pro";
       size = 14;
     };
