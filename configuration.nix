@@ -63,6 +63,7 @@
         rustup
         llvm_17
         clang_17
+        zig
       ];
     };
   };
@@ -88,6 +89,7 @@
     rustup
     llvm_17
     clang_17
+    zig
   ];
 
   system.stateVersion = "24.05"; # Did you read the comment?
