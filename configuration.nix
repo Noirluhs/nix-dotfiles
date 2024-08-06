@@ -63,6 +63,8 @@
         llvm_17
         clang_17
         zig
+        nasm
+        fasm
       ];
     };
   };
@@ -88,6 +90,8 @@
     llvm_17
     clang_17
     zig
+    nasm
+    fasm
   ];
 
   system.stateVersion = "24.05"; # Did you read the comment?
