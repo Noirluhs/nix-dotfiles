@@ -23,7 +23,7 @@
   {
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
       modules = [
-        ./configuration.nix
+        ./system/configuration.nix
       ];
     };
     homeConfigurations.test = home-manager.lib.homeManagerConfiguration {

@@ -58,9 +58,6 @@
   };
 
   imports = [
-    ./kitty
-    ./helix
-    ./vscode
-    ./neovim
+    ./modules
   ];
 }
