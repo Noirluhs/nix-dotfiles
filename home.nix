@@ -61,5 +61,6 @@
     ./kitty
     ./helix
     ./vscode
+    ./neovim
   ];
 }
