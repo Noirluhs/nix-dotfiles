@@ -17,6 +17,10 @@
       # Privacy
       keepassxc
 
+      #Dev
+      vscode
+      libresprite
+
 
     ];
     stateVersion = "24.05";
