@@ -62,6 +62,7 @@
   };
 
   imports = [
-    ./modules
+    ./modules/kitty
+    ./modules/helix
   ];
 }
