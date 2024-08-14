@@ -17,9 +17,12 @@
       # Privacy
       keepassxc
 
-      #Dev
-      vscode
+      # Dev
+      http-server
       libresprite
+
+      # Work
+      Obsidian
 
 
     ];
