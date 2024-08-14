@@ -20,6 +20,7 @@
       # Dev
       http-server
       libresprite
+      vscode
 
       # Work
       obsidian
