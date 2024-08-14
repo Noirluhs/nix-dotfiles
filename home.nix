@@ -22,9 +22,7 @@
       libresprite
 
       # Work
-      Obsidian
-
-
+      obsidian
     ];
     stateVersion = "24.05";
   };  
