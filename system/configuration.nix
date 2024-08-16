@@ -65,6 +65,9 @@
         zig
         nasm
         fasm
+        rustup
+        cargo
+        rustc
       ];
     };
   };
@@ -92,6 +95,9 @@
     zig
     nasm
     fasm
+    cargo
+    rustup
+    rustc
   ];
 
   system.stateVersion = "24.05"; # Did you read the comment?
