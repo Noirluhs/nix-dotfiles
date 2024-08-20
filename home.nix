@@ -24,6 +24,7 @@
 
       # Work
       obsidian
+      anki
     ];
     stateVersion = "24.05";
   };  
