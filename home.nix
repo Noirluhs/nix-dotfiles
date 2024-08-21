@@ -25,6 +25,7 @@
       # Work
       obsidian
       anki
+      google-chrome
     ];
     stateVersion = "24.05";
   };  
