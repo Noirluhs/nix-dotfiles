@@ -26,7 +26,7 @@
         ./system/configuration.nix
       ];
     };
-    homeConfigurations.test = home-manager.lib.homeManagerConfiguration {
+    homeConfigurations.noir = home-manager.lib.homeManagerConfiguration {
       inherit pkgs;
       modules = [
         ./home.nix
