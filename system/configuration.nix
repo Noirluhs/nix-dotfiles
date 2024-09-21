@@ -72,9 +72,9 @@
     };
   };
 
-  users.users.test = {
+  users.users.noir = {
     isNormalUser = true;
-    description = "test";
+    description = "noir";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [];
     shell = pkgs.zsh;
@@ -98,6 +98,7 @@
     cargo
     rustup
     rustc
+    git
   ];
 
   system.stateVersion = "24.05"; # Did you read the comment?
