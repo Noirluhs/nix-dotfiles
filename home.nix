@@ -2,8 +2,8 @@
 
 {
   home = {
-    username = "test";
-    homeDirectory = "/home/test";
+    username = "noir";
+    homeDirectory = "/home/noir";
     packages = with pkgs; [
       # Utility
       unzip
