@@ -68,6 +68,7 @@
         rustup
         cargo
         rustc
+        openjdk
       ];
     };
   };
@@ -99,6 +100,9 @@
     rustup
     rustc
     git
+    quickemu
+    openjdk
+    waydroid
   ];
 
   system.stateVersion = "24.05"; # Did you read the comment?
