@@ -102,7 +102,7 @@
     cargo
     rustup
     rustc
-    qalculate-gtk
+    speedcrunch
     git
     quickemu
     gnumake
