@@ -102,6 +102,10 @@
     rustc
     git
     quickemu
+    make
+    cmake
+    tar
+    subversion
     openjdk
     waydroid
   ];
