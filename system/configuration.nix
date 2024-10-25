@@ -102,6 +102,7 @@
     cargo
     rustup
     rustc
+    kdePackages.kalgebra
     git
     quickemu
     gnumake
