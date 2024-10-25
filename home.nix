@@ -13,6 +13,7 @@
       bat
       which
       fzf
+      xournalpp
 
       # Privacy
       keepassxc
