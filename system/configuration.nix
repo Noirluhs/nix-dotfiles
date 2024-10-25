@@ -102,7 +102,7 @@
     rustc
     git
     quickemu
-    make
+    gnumake
     cmake
     tar
     subversion
