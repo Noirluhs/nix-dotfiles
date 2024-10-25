@@ -104,7 +104,7 @@
     quickemu
     gnumake
     cmake
-    tar
+    gnutar
     subversion
     openjdk
     waydroid
