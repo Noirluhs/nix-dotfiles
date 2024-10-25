@@ -102,7 +102,7 @@
     cargo
     rustup
     rustc
-    kdePackages.kalgebra
+    qalculate-gtk
     git
     quickemu
     gnumake
