@@ -67,6 +67,8 @@
         fasm
         rustup
         cargo
+        gnumake
+        cmake
         rustc
         openjdk
       ];
